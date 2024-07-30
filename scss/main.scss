@@ -1,0 +1,91 @@
+// Variables
+// =========
+@import "variables.scss";
+
+body {
+    background-color: gray;
+}
+
+.container {
+  width: $myWidth;
+  background-color: $bg-color;
+  color: $myColor;
+  border-radius: 10px;
+  padding: 0.2rem 0;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: $myFontsize;
+  font-family: $myFontfamily;
+  text-align: center;
+}
+
+// Variable Scope
+// ==============
+
+$mySecondColor: blue;
+// !global, hdd rabto inn variable kaaga ka dhigto global isticlaam
+
+h3 {
+  $mySecondColor: green !global;
+  color: $mySecondColor;
+  font-size: 1.5rem;
+}
+
+p {
+  color: $mySecondColor;
+}
+
+// Sass Nesting
+// ============
+@import "Nesting.scss";
+
+// Sass @Mixin
+// ===========
+
+@mixin second-text {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: block;
+}
+
+.second-header {
+  @include second-text;
+}
+
+// Sass @extend
+// =============
+
+.save {
+  font: 1rem;
+  font-weight: bold;
+  color: green;
+  background-color: white;
+  border: none;
+  margin: 1rem 0.5rem;
+  padding: 0.4rem 0.5rem;
+  border-radius: 10px;
+}
+
+.cancel {
+  @extend .save;
+}
+
+// Sass Functions
+// ==============
+
+.container-two {
+  background-color: white;
+  color: $mySecondColor;
+  padding: 1.2rem 1.5rem;
+}
+
+.sub-title {
+    width: round(5.3);
+}
+
