@@ -85,7 +85,8 @@ p {
   padding: 1.2rem 1.5rem;
 }
 
-.sub-title {
-    width: round(5.3);
-}
+$list: 20px 30px 40px;
 
+.sub-title {
+    padding: length((width: 10px, height: 40px));
+}
