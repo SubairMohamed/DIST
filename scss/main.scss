@@ -88,5 +88,7 @@ p {
 $list: 20px 30px 40px;
 
 .sub-title {
-    padding: length((width: 10px, height: 40px));
+    // padding: length($list);
+    // padding: length((width: 10px, height: 40px));
+     font-size: nth($list, 1);
 }
