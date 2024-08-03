@@ -85,10 +85,16 @@ p {
   padding: 1.2rem 1.5rem;
 }
 
-$list: 20px 30px 40px;
+$list1: 10px 20px 30px;
+$list2: 40px 50px 60px;
 
 .sub-title {
     // padding: length($list);
     // padding: length((width: 10px, height: 40px));
-     font-size: nth($list, 1);
+    //  font-size: nth($list, 3);
+    //  font-size: nth($list, -3);
+    //  font-size: set-nth($list, 3, 6rem);
+    //  font-size: join($list1, $list2);
+    //  font-size: join((1 2 3 4), (5 6 7 8),auto);
+     font-size: join((1 2 3 4), (5 6 7 8),auto);
 }
