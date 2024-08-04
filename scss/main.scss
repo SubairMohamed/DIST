@@ -99,5 +99,7 @@ $list2: 40px 50px 60px;
     //  font-size: join((1 2 3 4), (5 6 7 8),auto);
     //  font-size: append($list1, 45, comma);
     //  font-size: zip($list1, $list2);
-     font-size: zip(1px 2px 3px, solid dashed dotted, red green blue);
+    //  font-size: zip(1px 2px 3px, solid dashed dotted, red green blue);
+    //  font-size: index($list1, 20px);
+     font-size: index($list1, 20px);
 }
