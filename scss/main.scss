@@ -86,7 +86,7 @@ p {
 }
 
 $list1: 10px 20px 30px;
-$list2: 40px 50px 60px;
+$list2: (40px 50px 60px);
 
 .sub-title {
     // padding: length($list);
@@ -102,5 +102,5 @@ $list2: 40px 50px 60px;
     //  font-size: zip(1px 2px 3px, solid dashed dotted, red green blue);
     //  font-size: index($list1, 20px);
     //  font-size: list-separator($list1);
-     font-size: list-separator($list1);
+     padding: is-bracketed($list2);
 }
