@@ -88,8 +88,6 @@ p {
 $list1: 10px 20px 30px;
 $list2: 40px 50px 60px;
 
-$border: 1px 2px 3px, solid dashed dotted, red green blue;
-
 .sub-title {
     // padding: length($list);
     // padding: length((width: 10px, height: 40px));
@@ -101,5 +99,5 @@ $border: 1px 2px 3px, solid dashed dotted, red green blue;
     //  font-size: join((1 2 3 4), (5 6 7 8),auto);
     //  font-size: append($list1, 45, comma);
     //  font-size: zip($list1, $list2);
-     font-size: zip($list1, $list2);
+     font-size: zip(1px 2px 3px, solid dashed dotted, red green blue);
 }
