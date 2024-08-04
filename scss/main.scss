@@ -96,5 +96,6 @@ $list2: 40px 50px 60px;
     //  font-size: set-nth($list, 3, 6rem);
     //  font-size: join($list1, $list2);
     //  font-size: join((1 2 3 4), (5 6 7 8),auto);
-     font-size: join((1 2 3 4), (5 6 7 8),auto);
+    //  font-size: join((1 2 3 4), (5 6 7 8),auto);
+     font-size: append($list1, 45);
 }
