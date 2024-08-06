@@ -72,4 +72,13 @@ p {
 
 .sub-title {
   padding: false;
+}
+
+.foo {
+  content: "value2";
+}
+
+.sub-title {
+  font-size: 32px;
+  padding: 24px;
 }/*# sourceMappingURL=main.css.map */

@@ -108,3 +108,14 @@ $list2: (40px 50px 60px);
 // Sass Map
 // ========
 
+$map1: ('this is a key': 'value1', 'this is an another key': 'value2');
+$font-size1: ('small': 16px, 'medium': 24px, 'large': 32px);
+
+.foo {
+  content: map-get($map1, 'this is an another key')
+}
+
+.sub-title {
+  font-size: map-get($font-size1, 'large');
+  padding: map-get($font-size1, 'medium');
+}
