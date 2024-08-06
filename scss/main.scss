@@ -113,7 +113,6 @@ $font-size1: ('small': 16px, 'medium': 24px, 'large': 32px);
 
 .sub-title {
   font-size: map-get($font-size1, 'large');
-  padding: map-get($font-size1, 'medium');
   content: map-keys($font-size1);
   margin: map-values($font-size1);
 }
