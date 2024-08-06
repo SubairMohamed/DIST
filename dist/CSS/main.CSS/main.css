@@ -75,9 +75,8 @@ p {
 }
 
 .sub-title {
-  font-size: 32px;
   content: "small", "medium", "large";
   margin: 16px, 24px, 32px;
   padding: false;
-  border: 1px solid blue;
+  font-size: ("small": 16px, "medium": 24px, "large": 32px, "extera-large": 64px, "extera-small": 8px, "extera-medium": 48px);
 }/*# sourceMappingURL=main.css.map */
