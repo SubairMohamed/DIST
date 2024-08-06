@@ -115,4 +115,5 @@ $font-size1: ('small': 16px, 'medium': 24px, 'large': 32px);
   font-size: map-get($font-size1, 'large');
   content: map-keys($font-size1);
   margin: map-values($font-size1);
+  padding: map-has-key($font-size1, 'extera-large');
 }
