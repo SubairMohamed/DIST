@@ -74,11 +74,8 @@ p {
   padding: false;
 }
 
-.foo {
-  content: "value2";
-}
-
 .sub-title {
   font-size: 32px;
   padding: 24px;
+  content: "small", "medium", "large";
 }/*# sourceMappingURL=main.css.map */
