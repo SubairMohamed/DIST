@@ -79,4 +79,5 @@ p {
   margin: 16px, 24px, 32px;
   padding: false;
   font-size: ("small": 16px, "medium": 24px, "large": 32px, "extera-large": 64px, "extera-small": 8px, "extera-medium": 48px);
+  font-size: ("medium": 24px, "large": 32px);
 }/*# sourceMappingURL=main.css.map */

@@ -118,4 +118,5 @@ $font-size2: ('extera-large': 64px, 'extera-small': 8px, 'extera-medium': 48px);
   margin: map-values($font-size1);
   padding: map-has-key($font-size1, 'extera-large');
   font-size: inspect(map-merge($font-size1, $font-size2));
+  font-size: inspect(map-remove($font-size1, 'small')); 
 }
