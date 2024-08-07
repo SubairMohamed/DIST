@@ -118,15 +118,16 @@ $mapWithInMap: (
   'martial-status': 'single',
   'sister': (
     'mahdiya': '27',
-    'mustaaq' 'curad-30',
+    'mustaaq': 'curad-30',
   )
 );
 
 .sub-title {
-  // font-size: map-get($font-size1, 'large');
+  font-size: map-get($font-size1, 'large');
   content: map-keys($font-size1);
   margin: map-values($font-size1);
   padding: map-has-key($font-size1, 'extera-large');
   font-size: inspect(map-merge($font-size1, $font-size2));
   font-size: inspect(map-remove($font-size1, 'small')); 
+  padding: map-keys($mapWithInMap);
 }
