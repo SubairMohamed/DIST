@@ -84,6 +84,6 @@ p {
   padding: "name", "age", "martial-status", "sister";
 }
 
-ul li a {
-  width: 100%;
+a:hover {
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */

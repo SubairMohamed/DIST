@@ -135,8 +135,8 @@ $mapWithInMap: (
 // Sass String 
 // ===========
 
-$string: selector-nest("ul", "li", "a");
+$string: selector-nest("a", "&:hover");
 
 #{$string} {
-  width: 100%;
+ background-color: white;
 }
