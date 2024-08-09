@@ -82,4 +82,8 @@ p {
   font-size: ("small": 16px, "medium": 24px, "large": 32px, "extera-large": 64px, "extera-small": 8px, "extera-medium": 48px);
   font-size: ("medium": 24px, "large": 32px);
   padding: "name", "age", "martial-status", "sister";
+}
+
+ul li a {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

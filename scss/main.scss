@@ -131,3 +131,12 @@ $mapWithInMap: (
   font-size: inspect(map-remove($font-size1, 'small')); 
   padding: map-keys($mapWithInMap);
 }
+
+// Sass String 
+// ===========
+
+$string: selector-nest("ul", "li", "a");
+
+#{$string} {
+  width: 100%;
+}
