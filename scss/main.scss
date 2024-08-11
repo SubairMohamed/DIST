@@ -137,7 +137,7 @@ $mapWithInMap: (
 
 $string: selector-nest("a", "&:hover");
 $string1: selector-append("a", ".active");
-$string2: selector-replace("a", ".active");
+$string2: selector-replace("span", "span", "strong");
 
 #{$string} {
  background-color: white;
@@ -147,3 +147,6 @@ $string2: selector-replace("a", ".active");
   color: red;
 }
 
+#{$string2} {
+ color: yellow;
+}
