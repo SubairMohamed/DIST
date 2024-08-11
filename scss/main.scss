@@ -136,7 +136,12 @@ $mapWithInMap: (
 // ===========
 
 $string: selector-nest("a", "&:hover");
+$string1: selector-append("a", ".active");
 
 #{$string} {
  background-color: white;
+}
+
+#{$string1} {
+  color: red;
 }

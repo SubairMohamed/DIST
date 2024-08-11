@@ -86,4 +86,8 @@ p {
 
 a:hover {
   background-color: white;
+}
+
+a.active {
+  color: red;
 }/*# sourceMappingURL=main.css.map */
