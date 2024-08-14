@@ -88,4 +88,10 @@ p {
   background-color: burlywood;
   font-size: 2rem;
   color: white;
+}
+
+a.class {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
