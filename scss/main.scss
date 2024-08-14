@@ -132,32 +132,43 @@ $mapWithInMap: (
   padding: map-keys($mapWithInMap);
 }
 
-// Sass String 
+// Sass Selector 
 // ===========
 
-$string: selector-nest("a", "&:hover");
-$string1: selector-append("a", ".active");
-$string2: selector-replace("span", "span", "strong");
-$string3: is-superselector("span", "h1 span");
-$string4: simple-selector("div.input");
+// $string: selector-nest("a", "&:hover");
+// $string1: selector-append("a", ".active");
+// $string2: selector-replace("span", "span", "strong");
+// $string3: is-superselector("span", "h1 span");
+// $string4: simple-selector("div.input");
 
 // #{$string} {
 //  background-color: white;
 // }
 
+// #{$string1} {
+//   color: red;
+// }
+
+// #{$string2} {
+//  color: yellow;
+// }
+
+// #{$string3} {
+//   width: 100%;
+//   background-color: white;
+// }
+
+// #{$string4} {
+//   width: 100px;
+// }
+
+// sass selector begi
+// ===================
+
+$string1: selector-nest(".heading-1, .heading-2", "p");
+
 #{$string1} {
-  color: red;
-}
-
-#{$string2} {
- color: yellow;
-}
-
-#{$string3} {
-  width: 100%;
-  background-color: white;
-}
-
-#{$string4} {
-  width: 100px;
+  background-color: burlywood;
+  font-size: 2rem;
+  color: white;
 }

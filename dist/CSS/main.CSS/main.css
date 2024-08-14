@@ -84,15 +84,8 @@ p {
   padding: "name", "age", "martial-status", "sister";
 }
 
-a.active {
-  color: red;
-}
-
-strong {
-  color: yellow;
-}
-
-true {
-  width: 100%;
-  background-color: white;
+.heading-1 p, .heading-2 p {
+  background-color: burlywood;
+  font-size: 2rem;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
