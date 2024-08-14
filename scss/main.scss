@@ -167,7 +167,7 @@ $mapWithInMap: (
 
 $string1: selector-nest(".heading-1, .heading-2", "p");
 $string2: selector-replace("a.class-1", ".class-1", ".class");
-
+$string3: simple-selectors("div.head");
 
 #{$string1} {
   background-color: burlywood;
@@ -176,6 +176,12 @@ $string2: selector-replace("a.class-1", ".class-1", ".class");
 }
 
 #{$string2} {
+  font-size: 1.2rem;
+ color: white;
+ text-decoration: none;
+}
+
+#{$string3} {
   font-size: 1.2rem;
  color: white;
  text-decoration: none;
