@@ -84,14 +84,15 @@ p {
   padding: "name", "age", "martial-status", "sister";
 }
 
-a:hover {
-  background-color: white;
-}
-
 a.active {
   color: red;
 }
 
 strong {
   color: yellow;
+}
+
+true {
+  width: 100%;
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */
