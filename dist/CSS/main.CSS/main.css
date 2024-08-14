@@ -100,4 +100,11 @@ div, .head {
   font-size: 1.2rem;
   color: white;
   text-decoration: none;
+}
+
+a.anchor {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: brown;
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */

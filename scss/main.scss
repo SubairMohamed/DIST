@@ -166,8 +166,11 @@ $mapWithInMap: (
 // ===================
 
 $string1: selector-nest(".heading-1, .heading-2", "p");
+// "a", "&:hover" nest
 $string2: selector-replace("a.class-1", ".class-1", ".class");
 $string3: simple-selectors("div.head");
+$string4: selector-append("a", ".anchor");
+
 
 #{$string1} {
   background-color: burlywood;
@@ -185,4 +188,11 @@ $string3: simple-selectors("div.head");
   font-size: 1.2rem;
  color: white;
  text-decoration: none;
+}
+
+#{$string4} {
+ text-decoration: none;
+ font-size: 1.3rem;
+ color: brown;
+ background-color: black;
 }
