@@ -139,7 +139,7 @@ $string: selector-nest("a", "&:hover");
 $string1: selector-append("a", ".active");
 $string2: selector-replace("span", "span", "strong");
 $string3: is-superselector("span", "h1 span");
-
+$string4: simple-selector();
 
 // #{$string} {
 //  background-color: white;
