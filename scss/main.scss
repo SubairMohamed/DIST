@@ -138,6 +138,8 @@ $mapWithInMap: (
 $string: selector-nest("a", "&:hover");
 $string1: selector-append("a", ".active");
 $string2: selector-replace("span", "span", "strong");
+$string3: is-superselector(".headers", "h2");
+
 
 #{$string} {
  background-color: white;
