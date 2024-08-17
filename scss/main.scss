@@ -170,7 +170,7 @@ $string1: selector-nest(".heading-1, .heading-2", "p");
 $string2: selector-replace("a.class-1", ".class-1", ".class");
 $string3: simple-selectors("div.head");
 $string4: selector-append("a", ".anchor");
-$string5: selector-unify("a", "disable");
+$string5: selector-unify("a", ".disable");
 
 
 #{$string1} {
@@ -196,4 +196,10 @@ $string5: selector-unify("a", "disable");
  font-size: 1.3rem;
  color: brown;
  background-color: black;
+}
+
+#{$string5} {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
