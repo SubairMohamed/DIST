@@ -171,7 +171,7 @@ $string2: selector-replace("a.class-1", ".class-1", ".class");
 $string3: simple-selectors("div.head");
 $string4: selector-append("a", ".anchor");
 $string5: selector-unify("a", ".disable");
-$string6: selector-extend();
+$string6: selector-extend("a.link", "a", ".warning");
 
 
 #{$string1} {
@@ -205,7 +205,7 @@ $string6: selector-extend();
   font-size: 1.2rem;
 }
 
-#{$string5} {
+#{$string6} {
   color: blue;
   text-decoration: none;
   font-size: 2rem;
