@@ -119,4 +119,8 @@ a.link, .link.warning {
   color: blue;
   text-decoration: none;
   font-size: 2rem;
+}
+
+body {
+  padding-top: true;
 }/*# sourceMappingURL=main.css.map */
