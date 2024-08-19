@@ -1,9 +1,10 @@
-// $num: 20px;
+$num: 20px;
 $str: "Roboto";
 $list: 20px 30px 40px;
 $map: ("medium": 30px, "large": 40px);
 
 body {
-    $num: 20px;
-    padding: variable-exists(num);
+    // $num: 20px; current scope
+    // padding: variable-exists(num);
+    padding: global-variable-exists(num);
 }
