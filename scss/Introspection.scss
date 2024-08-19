@@ -1,6 +1,6 @@
-$num: 20px;
+$num: 20;
 $str: "Roboto";
-$list: 20px 30px 40px;
+$list: 20rem 30rem 40rem;
 $map: ("medium": 30px, "large": 40px);
 
 @mixin all-borders {
@@ -20,5 +20,5 @@ body {
     // padding-top: mixin-exists(second-text);
     // padding-top: function-exists(made);
     // padding-top: type-of($num);
-    padding-top: inspect($str);
+    padding-top: feature-exists(map);
 }
