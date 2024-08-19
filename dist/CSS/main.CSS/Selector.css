@@ -1,0 +1,36 @@
+.heading-1 p, .heading-2 p {
+  background-color: burlywood;
+  font-size: 2rem;
+  color: white;
+}
+
+a.class {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+div, .head {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+
+a.anchor {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: brown;
+  background-color: black;
+}
+
+a.disable {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a.link, .link.warning {
+  color: blue;
+  text-decoration: none;
+  font-size: 2rem;
+}/*# sourceMappingURL=Selector.css.map */
