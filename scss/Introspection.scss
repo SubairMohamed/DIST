@@ -27,6 +27,18 @@ $mycolor: burlywood;
 
 body {
   background-color: cadetblue;
+
+  @media screen and (max-width: 900px) {
+    background-color: white;
+  }
+
+  @media screen and (max-width: 850px) {
+    background-color: gray;
+  }
+
+  @media screen and (max-width: 600px) {
+    background-color: orange;
+  }
 }
 
 .container {
@@ -39,5 +51,11 @@ body {
         color: white;
         font-size: 2rem;
         text-align: center;
+    }
+
+    @media screen and (max-width: 850px) {
+        width: 40%;
+        margin: 0 auto;
+        background-color: black;
     }
 }
