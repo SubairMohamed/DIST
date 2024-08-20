@@ -23,8 +23,21 @@ body {
     padding-top: feature-exists(map);
 }
 
-$color: burlywood;
+$mycolor: burlywood;
 
-.container-fluid {
-    background-color: $color;
+body {
+  background-color: cadetblue;
+}
+
+.container {
+    background-color: $mycolor;
+    padding: .5rem 1rem;
+    width: 50%;
+    border-radius: 20px;
+
+    .title {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
 }
