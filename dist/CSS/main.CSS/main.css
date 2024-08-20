@@ -123,4 +123,42 @@ a.link, .link.warning {
 
 body {
   padding-top: false;
+}
+
+body {
+  background-color: cadetblue;
+}
+@media screen and (max-width: 900px) {
+  body {
+    background-color: white;
+  }
+}
+@media screen and (max-width: 850px) {
+  body {
+    background-color: gray;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: orange;
+  }
+}
+
+.container {
+  background-color: burlywood;
+  padding: 0.5rem 1rem;
+  width: 50%;
+  border-radius: 20px;
+}
+.container .title {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+@media screen and (max-width: 850px) {
+  .container {
+    width: 40%;
+    margin: 0 auto;
+    background-color: black;
+  }
 }/*# sourceMappingURL=main.css.map */
