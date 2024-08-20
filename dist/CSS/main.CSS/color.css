@@ -1,1 +1,6 @@
-/*# sourceMappingURL=color.css.map */
+.first, .second {
+  width: 300px;
+  height: 100px;
+  border: 2px solid black;
+  margin: 0.5rem 0;
+}/*# sourceMappingURL=color.css.map */
