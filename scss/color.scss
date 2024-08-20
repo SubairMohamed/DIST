@@ -1,8 +1,16 @@
-$base-color: grey;
+$base-color: red;
 
 .first, .second {
     width: 300px;
     height: 100px;
     border: 2px solid black;
     margin: .5rem 0;
+}
+
+.first {
+ background-color: $base-color;
+}
+
+.second {
+    background-color: darken($base-color, 100);
 }

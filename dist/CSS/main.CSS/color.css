@@ -3,4 +3,12 @@
   height: 100px;
   border: 2px solid black;
   margin: 0.5rem 0;
+}
+
+.first {
+  background-color: red;
+}
+
+.second {
+  background-color: black;
 }/*# sourceMappingURL=color.css.map */
