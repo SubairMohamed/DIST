@@ -13,5 +13,6 @@ $base-color: red;
 
 .second {
     // background-color: darken($base-color, 100);
-    background-color: lighten($base-color, 100);
+    // background-color: lighten($base-color, 100);
+    background: adjust-hue($base-color, 100);
 }
