@@ -22,3 +22,9 @@ body {
     // padding-top: type-of($num);
     padding-top: feature-exists(map);
 }
+
+$color: burlywood;
+
+.container-fluid {
+    background-color: $color;
+}
