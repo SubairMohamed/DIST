@@ -161,4 +161,19 @@ body {
     margin: 0 auto;
     background-color: black;
   }
+}
+
+.first, .second {
+  width: 300px;
+  height: 100px;
+  border: 2px solid black;
+  margin: 0.5rem 0;
+}
+
+.first {
+  background-color: red;
+}
+
+.second {
+  background: #55ff00;
 }/*# sourceMappingURL=main.css.map */

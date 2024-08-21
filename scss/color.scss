@@ -1,4 +1,4 @@
-$base-color: red;
+$base-color: gray;
 
 .first, .second {
     width: 300px;
@@ -14,5 +14,7 @@ $base-color: red;
 .second {
     // background-color: darken($base-color, 100);
     // background-color: lighten($base-color, 100);
-    background: adjust-hue($base-color, 100);
+    // background: adjust-hue($base-color, 100);
+    background: saturate($base-color, 2);
+
 }
