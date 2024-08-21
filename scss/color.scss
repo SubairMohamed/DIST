@@ -1,4 +1,4 @@
-$base-color: green;
+$base-color: red;
 
 .first, .second {
     width: 300px;
@@ -16,6 +16,7 @@ $base-color: green;
     // background-color: lighten($base-color, 100);
     // background: adjust-hue($base-color, 100);
     // background: saturate($base-color, 2);
-    background: desaturate($base-color, 80);
+    // background: desaturate($base-color, 80);
+    background: mix($base-color, green, 60%);
 
 }
