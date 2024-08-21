@@ -17,6 +17,7 @@ $base-color: red;
     // background: adjust-hue($base-color, 100);
     // background: saturate($base-color, 2);
     // background: desaturate($base-color, 80);
-    background: mix($base-color, green, 60%);
+    // background: mix($base-color, green, 60%);
+    background: transparentize($base-color, 0.9);
 
 }
