@@ -110,7 +110,8 @@ $list2: (40px 50px 60px);
 
 .sub-title {
   // font-family: str-length("subair maxamed");
-  font-family: str-index("subair maxamed", "s");
+  // font-family: str-index("subair maxamed", "s");
+  font-family: str-insert("subair maxamed", " cali", 17);
 }
 
 
