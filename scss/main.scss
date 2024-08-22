@@ -109,7 +109,7 @@ $list2: (40px 50px 60px);
 // ===========
 
 .sub-title {
-  font-family: unquote(sans-serif);
+  font-family: to-lower-case(sans-serif);
 }
 
 
