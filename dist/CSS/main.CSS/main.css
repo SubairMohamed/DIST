@@ -75,6 +75,10 @@ p {
 }
 
 .sub-title {
+  font-family: "sans-serif";
+}
+
+.sub-title {
   font-size: 32px;
   content: "small", "medium", "large";
   margin: 16px, 24px, 32px;
@@ -175,5 +179,5 @@ body {
 }
 
 .second {
-  background: #55ff00;
+  background: rgba(255, 0, 0, 0.1);
 }/*# sourceMappingURL=main.css.map */

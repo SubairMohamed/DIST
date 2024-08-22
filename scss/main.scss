@@ -76,8 +76,8 @@ p {
   @extend .save;
 }
 
-// Sass Functions
-// ==============
+// Sass number
+// ===========
 
 .container-two {
   background-color: white;
@@ -104,6 +104,14 @@ $list2: (40px 50px 60px);
     //  font-size: list-separator($list1);
      padding: is-bracketed($list2);
 }
+
+// Sass String
+// ===========
+
+.sub-title {
+  font-family: quote(sans-serif);
+}
+
 
 // Sass Map
 // ========
